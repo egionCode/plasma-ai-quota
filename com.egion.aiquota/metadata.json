@@ -1,0 +1,22 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Id": "com.egion.aiquota",
+        "Name": "AI Quota",
+        "Name[pt_BR]": "Cota de IA",
+        "Description": "Remaining quota of your AI subscriptions (Claude, Codex)",
+        "Description[pt_BR]": "Uso restante das assinaturas de IA (Claude, Codex)",
+        "Icon": "utilities-system-monitor",
+        "Category": "System Information",
+        "License": "MIT",
+        "Version": "0.1.0",
+        "Authors": [
+            {
+                "Name": "egionCode"
+            }
+        ],
+        "Website": "https://github.com/egionCode/plasma-ai-quota",
+        "EnabledByDefault": true
+    },
+    "X-Plasma-API-Minimum-Version": "6.0"
+}

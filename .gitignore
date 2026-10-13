@@ -1,0 +1,6 @@
+*.qmlc
+*.jsc
+.qmlls.ini
+node_modules/
+__pycache__/
+*.plasmoid
