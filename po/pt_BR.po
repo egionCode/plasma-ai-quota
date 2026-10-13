@@ -1,0 +1,323 @@
+# Portuguese translations for com.egion.aiquota package
+# Traduções em português brasileiro para o pacote com.egion.aiquota.
+# Copyright (C) 2026 THE com.egion.aiquota'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the com.egion.aiquota package.
+# Automatically generated, 2026.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: com.egion.aiquota\n"
+"Report-Msgid-Bugs-To: https://github.com/egionCode/plasma-ai-quota/issues\n"
+"POT-Creation-Date: 2026-10-13 08:58-0300\n"
+"PO-Revision-Date: 2026-10-13 08:04-0300\n"
+"Last-Translator: Automatically generated\n"
+"Language-Team: Brazilian Portuguese\n"
+"Language: pt_BR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: com.egion.aiquota/contents/config/config.qml:7
+msgid "General"
+msgstr "Geral"
+
+#: com.egion.aiquota/contents/config/config.qml:12
+msgid "Sources"
+msgstr "Fontes"
+
+#: com.egion.aiquota/contents/ui/AccountRow.qml:46
+msgid "last session, %1"
+msgstr "última sessão, %1"
+
+#: com.egion.aiquota/contents/ui/AccountRow.qml:47
+msgid "cached, %1"
+msgstr "cache, %1"
+
+#: com.egion.aiquota/contents/ui/AccountRow.qml:74
+msgid "Profile: %1"
+msgstr "Perfil: %1"
+
+#: com.egion.aiquota/contents/ui/AccountRow.qml:90
+msgid "Login expired"
+msgstr "Login vencido"
+
+#: com.egion.aiquota/contents/ui/AccountRow.qml:98
+msgid "This profile's login expired in clauth; open clauth to renew it."
+msgstr "Login deste perfil vencido no clauth; abra o clauth para renovar."
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:20
+msgid "Refresh every (min):"
+msgstr "Atualizar a cada (min):"
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:26
+msgid "Warn when left (%):"
+msgstr "Avisar quando restar (%):"
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:32
+msgid "Bars show:"
+msgstr "Barras mostram:"
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:33
+msgid "How much is left"
+msgstr "Quanto resta"
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:36
+msgid "How much was used"
+msgstr "Quanto foi usado"
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:42
+msgid "Accounts:"
+msgstr "Contas:"
+
+#: com.egion.aiquota/contents/ui/configGeneral.qml:43
+msgid "Show the email of each account"
+msgstr "Mostrar o e-mail de cada conta"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:76
+msgid "clauth (multiple Claude accounts)"
+msgstr "clauth (várias contas Claude)"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:80
+msgid "Claude accounts:"
+msgstr "Contas Claude:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:81
+msgid "Use clauth when installed"
+msgstr "Usar o clauth quando instalado"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:85
+msgid "Executable:"
+msgstr "Executável:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:89
+msgid "clauth executable"
+msgstr "Executável do clauth"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:98
+msgid "Default source for Claude: shows every clauth profile. Keep \"clauth daemon\" running so usage stays current."
+msgstr "Fonte padrão do Claude: mostra todos os perfis do clauth. Deixe o \"clauth daemon\" rodando para o uso ficar atualizado."
+
+#: com.egion.aiquota/contents/ui/configSources.qml:103
+msgid "Claude Code (without clauth)"
+msgstr "Claude Code (sem clauth)"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:107
+msgid "Fallback:"
+msgstr "Alternativa:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:108
+msgid "Read the active account directly when clauth is not available"
+msgstr "Ler a conta ativa direto quando o clauth não estiver disponível"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:112
+msgid "Credentials:"
+msgstr "Credenciais:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:116
+msgid "Claude Code .credentials.json file"
+msgstr "Arquivo .credentials.json do Claude Code"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:122
+msgid "Codex"
+msgstr "Codex"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:126
+msgid "ChatGPT account:"
+msgstr "Conta ChatGPT:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:127
+msgid "Show"
+msgstr "Mostrar"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:131
+msgid "Codex folder:"
+msgstr "Pasta do Codex:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:136
+msgid "Codex folder (contains auth.json)"
+msgstr "Pasta do Codex (contém auth.json)"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:142
+msgid "Advanced"
+msgstr "Avançado"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:146
+msgid "Python:"
+msgstr "Python:"
+
+#: com.egion.aiquota/contents/ui/configSources.qml:155
+msgid "Could not run the collector with this Python. Use an absolute path, e.g. /usr/bin/python3."
+msgstr "Não consegui rodar o coletor com este Python. Use um caminho absoluto, ex: /usr/bin/python3."
+
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:179
+#: com.egion.aiquota/contents/ui/main.qml:89
+msgid "No subscription found"
+msgstr "Nenhuma assinatura encontrada"
+
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:180
+msgid "Log in to Claude Code or Codex, or point to the files in the settings."
+msgstr "Faça login no Claude Code ou no Codex, ou aponte os caminhos nas configurações."
+
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:183
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:245
+msgid "Configure sources"
+msgstr "Configurar fontes"
+
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:218
+msgid "Updating..."
+msgstr "Atualizando..."
+
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:219
+msgid "Updated %1"
+msgstr "Atualizado %1"
+
+#: com.egion.aiquota/contents/ui/FullRepresentation.qml:234
+msgid "Refresh"
+msgstr "Atualizar"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:12
+msgid "Session (5h)"
+msgstr "Sessão (5h)"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:13
+msgid "Weekly"
+msgstr "Semanal"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:14
+msgid "Weekly Opus"
+msgstr "Semanal Opus"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:15
+msgid "Weekly Sonnet"
+msgstr "Semanal Sonnet"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:23
+msgid "5 hours"
+msgstr "5 horas"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:24
+msgid "Week"
+msgstr "Semana"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:25
+msgid "Week, Opus"
+msgstr "Semana, Opus"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:26
+msgid "Week, Sonnet"
+msgstr "Semana, Sonnet"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:35
+msgid "just now"
+msgstr "agora"
+
+#: com.egion.aiquota/contents/ui/Labels.qml:36
+msgid "%1 ago"
+msgstr "há %1"
+
+#: com.egion.aiquota/contents/ui/main.qml:61
+msgid "AI Quota"
+msgstr "Cota de IA"
+
+#: com.egion.aiquota/contents/ui/main.qml:89
+msgid "Loading..."
+msgstr "Carregando..."
+
+#: com.egion.aiquota/contents/ui/main.qml:117
+msgid "Codex: no live data (%1), showing the last usage recorded in the sessions."
+msgstr "Codex: sem dado ao vivo (%1), mostrando o último uso registrado nas sessões."
+
+#: com.egion.aiquota/contents/ui/main.qml:122
+msgid "clauth not found at %1. Set the path under Sources."
+msgstr "clauth não encontrado em %1. Ajuste o caminho em Fontes."
+
+#: com.egion.aiquota/contents/ui/main.qml:123
+msgid "%1: credentials not found at %2. Log in with the CLI or set the path under Sources."
+msgstr "%1: credenciais não encontradas em %2. Faça login na CLI ou ajuste o caminho em Fontes."
+
+#: com.egion.aiquota/contents/ui/main.qml:125
+msgid "%1: token expired. Open the CLI once so it can renew the login."
+msgstr "%1: token vencido. Abra a CLI uma vez para ela renovar o login."
+
+#: com.egion.aiquota/contents/ui/main.qml:127
+msgid "%1: login rejected. Log in again with the CLI."
+msgstr "%1: login recusado. Entre de novo na CLI."
+
+#: com.egion.aiquota/contents/ui/main.qml:129
+msgid "%1: logged in with an API key, there is no subscription quota to show."
+msgstr "%1: login por API key, sem cota de assinatura para mostrar."
+
+#: com.egion.aiquota/contents/ui/main.qml:131
+msgid "%1: %2"
+msgstr "%1: %2"
+
+#: com.egion.aiquota/contents/ui/main.qml:137
+msgid "token expired"
+msgstr "token vencido"
+
+#: com.egion.aiquota/contents/ui/main.qml:138
+msgid "login rejected"
+msgstr "login recusado"
+
+#: com.egion.aiquota/contents/ui/main.qml:139
+msgid "no connection"
+msgstr "sem conexão"
+
+#: com.egion.aiquota/contents/ui/main.qml:140
+msgid "request limit reached"
+msgstr "limite de consultas atingido"
+
+#: com.egion.aiquota/contents/ui/main.qml:141
+msgid "unexpected response format"
+msgstr "resposta em formato inesperado"
+
+#: com.egion.aiquota/contents/ui/main.qml:142
+msgid "credentials not found"
+msgstr "credenciais não encontradas"
+
+#: com.egion.aiquota/contents/ui/main.qml:143
+msgid "request failed"
+msgstr "erro ao consultar"
+
+#: com.egion.aiquota/contents/ui/main.qml:152
+msgid "The clauth daemon is not running, so Claude usage only updates while clauth is open. Run \"clauth daemon\" to keep it current."
+msgstr "O daemon do clauth não está rodando, então o uso do Claude só atualiza com o clauth aberto. Rode \"clauth daemon\" para manter atualizado."
+
+#: com.egion.aiquota/contents/ui/main.qml:183
+msgid "Could not run the collector. Check the Python setting under Sources."
+msgstr "Não consegui rodar o coletor. Confira o Python em Fontes."
+
+#: com.egion.aiquota/contents/ui/PathField.qml:30
+msgid "detect automatically"
+msgstr "detectar automaticamente"
+
+#: com.egion.aiquota/contents/ui/PathField.qml:35
+msgid "Browse"
+msgstr "Procurar"
+
+#: com.egion.aiquota/contents/ui/PathField.qml:46
+msgid "Found: %1"
+msgstr "Encontrado: %1"
+
+#: com.egion.aiquota/contents/ui/PathField.qml:47
+msgid "Not found at %1"
+msgstr "Não encontrado em %1"
+
+#: com.egion.aiquota/contents/ui/QuotaCell.qml:58
+msgctxt "percentage of quota"
+msgid "left"
+msgstr "restante"
+
+#: com.egion.aiquota/contents/ui/QuotaCell.qml:58
+msgctxt "percentage of quota"
+msgid "used"
+msgstr "usado"
+
+#: com.egion.aiquota/contents/ui/QuotaCell.qml:76
+msgid "in %1"
+msgstr "em %1"
+
+#: com.egion.aiquota/contents/ui/QuotaCell.qml:85
+msgid "Resets %1"
+msgstr "Reseta %1"
