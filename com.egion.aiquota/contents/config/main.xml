@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Opcoes persistidas do widget. Lidas em QML via plasmoid.configuration.<nome> -->
+<kcfg xmlns="http://www.kde.org/standards/kcfg/1.0"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.kde.org/standards/kcfg/1.0 http://www.kde.org/standards/kcfg/1.0/kcfg.xsd">
+  <kcfgfile name=""/>
+  <group name="General">
+    <!-- Intervalo de atualizacao em minutos. 5 e folgado: os endpoints de uso nao sao
+         publicos e consultar demais arrisca bloqueio por rate limit. -->
+    <entry name="refreshMinutes" type="Int">
+      <default>5</default>
+    </entry>
+    <!-- Abaixo deste restante (%) a barra fica amarela; abaixo de 1/4 dele, vermelha -->
+    <entry name="warnRemaining" type="Int">
+      <default>20</default>
+    </entry>
+    <!-- Mostrar o e-mail de cada conta. Opcao para esconder em compartilhamento de tela -->
+    <entry name="showEmail" type="Bool">
+      <default>true</default>
+    </entry>
+    <!-- true = mostra quanto RESTA (barra esvazia); false = quanto foi USADO (barra enche) -->
+    <entry name="showRemaining" type="Bool">
+      <default>true</default>
+    </entry>
+  </group>
+  <group name="Sources">
+    <!-- Campos de caminho vazios = autodeteccao (ver fetch_usage.py). So preencher se a
+         deteccao falhar, ex: CLAUDE_CONFIG_DIR ou CODEX_HOME fora do padrao. -->
+    <!-- Claude direto: so e usado quando o clauth esta desligado, ausente ou falha -->
+    <entry name="claudeEnabled" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="claudeCredsPath" type="String">
+      <default></default>
+    </entry>
+    <!-- clauth: fonte padrao das contas Claude quando instalado -->
+    <entry name="clauthEnabled" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="clauthPath" type="String">
+      <default></default>
+    </entry>
+    <entry name="codexEnabled" type="Bool">
+      <default>true</default>
+    </entry>
+    <entry name="codexHome" type="String">
+      <default></default>
+    </entry>
+    <!-- Interpretador do coletor. Caminho absoluto se o PATH do plasmashell nao achar -->
+    <entry name="pythonPath" type="String">
+      <default>python3</default>
+    </entry>
+  </group>
+</kcfg>
